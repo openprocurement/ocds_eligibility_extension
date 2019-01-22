@@ -1,0 +1,30 @@
+{
+  "definitions": {
+    "Award": {
+      "properties": {
+        "eligible": {
+          "title": "Eligible",
+          "type": "boolean",
+          "description": "Confirms compliance of eligibility criteria set by the procuring entity in the tendering documents"
+        }
+      }
+    },
+    "Bid": {
+      "properties": {
+        "selfEligible": {
+          "title": "Self eligible",
+          "description": "Confirms compliance of eligibility criteria set by the customer in the tendering documents",
+          "type": "boolean"
+        },
+        "eligibilityDocuments": {
+          "title": "Eligibility documents",
+          "description": "Documents related to eligibility of bids",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Document"
+          }
+        }
+      }
+    }
+  }
+}

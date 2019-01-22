@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Eligible"
+  },
+  "description": {
+    "en": ""
+  },
+    "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ],
+  "documentationUrl": {
+    "en": "https://github.com/openprocurement/ocds_eligible_extension"
+  }
+}

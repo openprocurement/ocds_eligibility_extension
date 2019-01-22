@@ -1,4 +1,4 @@
-## Eligible
+## Eligibility
 This extension introduces three fields that can be used to 
 show compliance of eligibility criteria in the tender documents.
 ## Overview
